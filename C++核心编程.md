@@ -399,3 +399,364 @@ class Person
 ```
 
 **注意事项：类可嵌套！**
+
+#### 4.2 对象的初始化和清理
+
+```c++
+对象的初始化和清理
+//1.构造函数 进行初始化操作
+    class Person
+    {
+        public:
+        //1.构造函数
+        //没有返回值 不用写void
+        //函数名 与类名相同
+        //构造函数可以有参数，可以发生重载
+        //创建对象的时候，构造函数会自动调用，而且只调用一次
+        Person()//自己写的
+        {
+            cout<<"Person 构造函数的调用"<<endl;
+        }
+        Person()//编译器写的空白函数
+        {
+            
+        }
+        //2.析构函数 进行清理的操作
+        //没有返回值 不用写void
+        //函数名 与类名相同 在名称前加~
+        //构造函数不可以有参数，不可以发生重载
+        //对象在销毁前，会自动调用析构函数
+        ~Person()//自己写的
+        {
+            cout<<"Person 的析构函数调用"<<endl;
+        }
+        ~Person()//编译器写的空白函数
+        {
+            
+        }
+   }
+```
+
+### 4.2.1构造函数的分类和调用
+
+#### 分类：
+
+1.按照参数分类： 无参构造（默认构造）和有参构造
+
+2.按照类型分类：  拷贝构造 和 普通构造
+
+```c++
+//拷贝构造函数
+Person(const Person &p)//const 引用
+{
+    //将传入的人身上的所有属性，拷贝到我身上
+    age = p.age;
+}
+```
+
+#### 调用
+
+1.括号法；2.显示法；3.隐式转换法
+
+注意事项：
+
+1.调用默认构造函数时，不要加（）
+
+否则编译器会认为是一个函数的声明，不会构造一个类
+
+2.不要利用拷贝构造函数 初始化匿名对象
+
+Person(p3)；
+![image-20210715160704011](C:\Users\huawei\Desktop\image-20210715160704011.png)
+
+![image-20210715161458695](C++核心编程/image-20210715161458695.png)
+
+#### 4.2.2 拷贝构造函数调用时机
+
+拷贝构造函数调用时机
+1、 使用一个已经创建完毕的对象来初始化一个新对象
+
+```c++
+void test01()
+{
+    Person p1(20);
+    Person p2(p1);
+    cout<<"p2的年龄为： "<<p2.m_Age<<endl;
+}
+```
+
+2、值传递的方式给函数参数传值
+
+```c++
+void doWork(Person p)
+{
+    
+}
+void test02()
+{
+    Person p;
+    doWork(p);
+}
+//两个屁不是同一个p
+```
+
+3、值方式返回局部对象
+
+```c++
+void doWork2()
+{
+    Person p1;
+    cout<<(int*)&p1<<endl;
+    return p1;
+}
+void test03()
+{
+    Person p=doWork2();
+    cout<<(int*)&p<<endl;
+}
+```
+
+![image-20210715170020656](C:\Users\huawei\AppData\Roaming\Typora\typora-user-images\image-20210715170020656.png)
+
+#### 4.2.3 构造函数调用规则
+
+默认情况下，C++编译器至少给一个类添加3个函数
+1.默认构造函数(无参,函数体为空)
+2.默认析构函数(无参，函数体为空)
+3.默认拷贝构造函数,对属性进行值拷贝
+构造函数调用规则如下:
+●如果用户定义有参构造函数，C++不在提供默认无参构造，但是会提供默认拷贝构造
+●如果用户定义拷贝构造函数，C++不会再提供其他构造函数
+
+```c++
+
+```
+
+#### 4.2.4 深拷贝与浅拷贝
+
+浅拷贝：简单的赋值拷贝操作
+
+深拷贝：在堆区
+
+```c++
+class Person
+{
+    public:
+    Person()
+    {
+        cout<<"Person的默认构造函数调用"<<endl;
+    }
+     Person(int age,int height)
+    {
+         m_Height =new int (height);//指针存放地址
+         m_Age =age;
+        cout<<"Person的有参构造函数调用"<<endl;
+    }
+    ~Person()
+    {
+        //析构代码，将堆区开辟数据做释放操作
+        if(m_Height != NULL)
+        {
+            delete m_Height;
+            m_Height=NULL;
+        }
+        cout<<"Person的析构函数调用"<<endl;
+    }
+    //自己实现拷贝构造函数，解决浅拷贝带来的问题
+    Person(const Person &p)
+    {
+        cout<<"Person 拷贝构造函数调用"<<endl;
+        m_Age =p.m_Age;
+        //m_Height = p.m_Height; 编译器默认实现
+        //深拷贝操作
+        m_Height =new int(*p.m_Height);
+    }
+    int m_Age;//年龄
+    int *m_Height;//身高 Height为指针存放地址 height为值
+}
+void test01()
+{
+    Person p1(18,160);
+    cout<<"p1的年龄为： "<<p1.m_Age<<endl;
+    Person p2(p1);
+    cout<<"p2的年龄为： "<<p2.m_Age<<endl;
+        
+}
+```
+
+编译程序会崩，问题：浅拷贝导致堆区的内存重复释放
+
+浅拷贝的问题，要利用深拷贝进行解决
+
+#### 4.2.5 初始化列表
+
+作用：C++提供了初始化列表语法，用来初始化属性
+
+```c++
+//初始化列表
+class Person
+{
+    public:
+    //传统初始化操作
+    Person(int a,int b,int c)
+    {
+        m_A=a;
+        m_B=b;
+        m_C=c;
+    }
+    //初始化列表初始化属性
+    Person(int a,int b,int c):m_A(a),m_B(b),m_C(c)
+    {
+        
+    }
+    int m_A;
+    int m_B;
+    int m_C;
+}
+```
+
+#### 4.2.6 类对象作为类成员
+
+C++类中的成员可以说另一个类的对象，我们称之为
+
+当其他类对象作为苯类成员，构造时候先构造类对象，再构造自身
+
+#### 4.2.7 静态成员
+
+静态成员就是在成员变量和成员函数前加上关键字static,称为静态成员
+静态成员分为: .
+●静态成员变量
+。所有对象共享同一份数据
+。在编译阶段分配内存
+。类内声明，类外初始化
+●静态成员函数
+。所有对象共享同一个函数
+。静态成员函数只能访问静态成员变量
+
+![image-20210715214047526](C:\Users\huawei\AppData\Roaming\Typora\typora-user-images\image-20210715214047526.png)
+
+![image-20210715212743957](C:\Users\huawei\AppData\Roaming\Typora\typora-user-images\image-20210715212743957.png)
+
+### 4.3 C++对象模型和this指针
+
+#### 4.3.1 成员变量和成员函数分开存储
+
+只有非静态成员变量才属于类的对象上
+
+空对象占用内存空间为：1 
+
+加上一个int m_A//非静态成员变量 属于类的对象上
+
+对象占用内存空间为：4
+
+加上一个static int m_B//静态成员变量 不属于类对象上
+
+对象占用内存空间为：4
+
+加上一个void func(){}//非静态成员函数 不属于类对象上
+
+对象占用内存空间为：4
+
+加上一个static void func2(){}//非态成员函数 不属于类对象上
+
+对象占用内存空间为：4
+
+#### 4.3.2 this指针概念
+
+this指针是隐含每一个非静态成员函数内的一种指针
+
+不需要定义，直接使用即可
+
+用途：
+
+- 当形参和成员变量同名时，可用this指针来区分
+
+  ```c++
+  class Person
+  {
+      public:
+      Person(int age)
+      {
+          //this指针指向 在main函数被调用的成员函数 所属的对象
+          this->age = age;
+      }
+      Person& PersonAddAge(Person &p)
+      {
+          this->age+=p.age;
+          //this为指向p2的指针，而*this指向的就是p2这个对象本体
+          return *this;
+      }
+      int age;//否则无法正常赋值
+  }
+  ```
+
+  
+
+- 在类的非静态成员函数中返回对象本身，可使用return *this
+
+```c++
+void test02()
+{
+    Person p1(10);
+    Person p2(10);
+    //链式编程思想
+    p2.PersonAddAge(p1).PersonAddAge(p1).PersonAddAge(p1).;
+    cout<<"p2的年龄为： "<<p2.age<<endl;
+}
+```
+
+#### 4.3.3 空指针访问成员函数
+
+C++中空指针也是可以调用成员函数的，但是也要注意有没有用到this指针
+
+#### 4.3.4 const修饰成员函数
+
+常函数: .
+●成员函数后加const后我们称为这个函数为常函数
+●常函数内不可以修改成员属性
+●成员属性声明时加关键字mutable后，在常函数中依然可以修改
+常对象:
+●声明对象前加const称该对象为常对象
+●常对象只能调用常函数
+
+```c++
+//常函数
+class Person
+{
+    public:
+    
+    //this指针的本质 是指针常量 指针的指向不可更改
+    //const Person *const this;
+    //在成员函数后面加const，修饰的是this指向，让指针指向的值也不可更改
+    void showPerson() const
+    {
+        //this->m_A=100；
+        //this =NULL;//this指针不可以修改指针的指向
+    }
+    int m_A;
+    mutable int m_B;//特殊变量，即使在常函数中，也可以修改这个值，加关键字mutable
+}
+//常对象
+void test02()
+{
+    const Person p;//在对象面前加const,变为常对象
+    P.m_A=100;
+    P.m_B=100;//m_B是特殊值
+    //常对象只能调用常函数
+    
+}
+```
+
+![image-20210716092905304](D:\Qianrushi\image-20210716092905304.png)
+
+### 4.4 友元
+
+友元的三种实现：
+
+- 全局函数做友元
+
+  
+
+- 类做友元
+
+- 成员函数做友元
