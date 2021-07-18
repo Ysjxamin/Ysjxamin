@@ -9,8 +9,7 @@ static void CopyToItem(Node*pn,Item*pi);
 //初始化队列
 void initquene(Quene* qe)
 {
-	qe->front = NULL;
-	qe->rear = NULL;
+	qe->front = qe->rear = NULL;
 	qe->items = 0;
 }
 //检查队列是否已满
