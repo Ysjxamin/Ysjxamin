@@ -760,3 +760,121 @@ void test02()
 - 类做友元
 
 - 成员函数做友元
+
+### 4.5 运算符重载
+
+#### 4.5.1 加号运算符重载
+
+作用:对已有的运算符重新进行定义，赋予其另一种功能，以适应不同的数据类型
+
+![image-20210717115842110](D:\Qianrushi\C++核心编程\image-20210717115842110.png)
+
+```c++
+//1.成员函数重载+号
+Person operator+(Person &p)
+{
+    Person temp;
+    temp.m_A=this->m_A+p.m_A;
+    temp.m_B=this->m_B+p.m_B;
+    return temp;
+}
+Person p3=p1 operator+(p2)
+Person p3=p1+p2;
+//2.全局函数重载+号
+Person operator+(Person &p1，Person &p2)
+{
+    Person temp;
+    temp.m_A=p1.m_A+p2.m_A;
+    temp.m_B=p1.m_B+p2.m_B;
+    return temp;
+}
+Person p3=operator+(p1,p2)
+Person p3=p1+p2;
+//运算符重载 也可以发生函数重载
+Person operator+(Person &p1，num)
+{
+    Person temp;
+    temp.m_A=p1.m_A+num;
+    temp.m_B=p1.m_B+num;
+    return temp;
+}
+Person p3=operator+(p1,10)
+Person p3=p1+10;
+```
+
+#### 4.5.2 左移运算符重载
+
+作用：可以输出自定义数据类型
+
+```c++
+//左移运算符重载
+//利用成员函数左移运算符重载
+class Person
+{
+    public:
+    void operator<< (cout)//无法实现
+}
+//只能利用全局函数重载左移运算符
+void operator<<(ostream &cout,Person p)//本质operator<<(cout,p)简化cout<<p
+{
+    cout<<"m_A= "<<p.m_A<<"m_B "<<p.m_B;
+}
+cout<<p//即可以输出对象p中的xx个对象的值
+       //但后面不可加<<endl,因重载函数的返回void
+    
+    
+ostream & operator<<(ostream &cout,Person p)//本质operator<<(cout,p)简化cout<<p
+{
+    cout<<"m_A= "<<p.m_A<<"m_B "<<p.m_B;
+}
+cout<<p<<endl;//即可以输出对象p中的xx个对象的值
+       //后面可加<<endl,因重载函数的返回值为cout
+```
+
+#### 4.5.3 递增运算符重载
+
+作用：通过重载递增运算符，实现自己的整型数据
+
+```c++
+//重载前置++运算符 返回引用是为了一直对一个值递增
+MyInteger& operator++()
+{
+    //先进行++运算
+    m_Num++;
+    
+    //再将自身做返回
+    return *this;
+}
+//重载后置—++运算符
+void operator++(int) //int代表占位参数,可用于区分前置和后置递增
+{
+    //先 记录当时结果
+    MyInteger temp = *this;
+    //后 递增
+    m_Num++;
+    //最后将记录结果做返回
+    return temp;
+}
+    
+```
+
+#### 4.5.4 赋值运算符重载
+
+![image-20210718090720482](D:\Qianrushi\C++核心编程\image-20210718090720482.png)
+
+#### 4.5.5 关系运算符重载
+
+作用：重载关系运算符，可以让两个自定义类型对象进行对比操作
+
+![image-20210718092932954](D:\Qianrushi\C++核心编程\image-20210718092932954.png)
+
+#### 4.5.6 函数调用运算符重载
+
+![image-20210718093923465](D:\Qianrushi\C++核心编程\image-20210718093923465.png)
+
+```c++
+//匿名函数对象
+cout<<MyAdd()(100,100)<<endl;
+//MyAdd为匿名函数对象
+```
+
