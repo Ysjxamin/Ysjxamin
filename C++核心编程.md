@@ -878,3 +878,113 @@ cout<<MyAdd()(100,100)<<endl;
 //MyAdd为匿名函数对象
 ```
 
+### 4.6 继承
+
+#### 4.6.1 继承的基本语法
+
+作用：减少重复的代码
+
+语法：class 子类：继承方式   父类
+
+子类：也称为   派生类
+
+父类：也称为   基类
+
+```c++
+class BasePage
+{
+    public:
+    void header()
+    {
+        cout<<"首页，公开课，登录，注册..（公共头部）"<<endl;
+    }
+    void footer()
+    {
+        cout<<"帮助中心，交流合作，站内地图...（公共底部）"<<endl;
+        void left()
+        {
+            cout<<"Java,Pyhthon,C++,...（公共分类列表）"<<endl;
+        }
+    }
+}
+//Java页面
+class Java:public:BasePage
+{
+    public:
+    void content()
+    {
+        cout<<"Java学科视频"<<endl;
+    }
+}
+//C++页面
+class CPP:public:BasePage
+{
+    public:
+    void content()
+    {
+        cout<<"C++学科视频"<<endl;
+    }
+}
+```
+
+#### 4.6.2 继承方式
+
+继承的语法：
+
+继承方式：
+
+- 公共继承
+- 保护继承
+- 私有继承
+
+[![W8IYIe.png](https://z3.ax1x.com/2021/07/19/W8IYIe.png)](https://imgtu.com/i/W8IYIe)
+
+#### 4.6.3 继承中的对象模型
+
+问题：从父类继承过来的成员，哪些属于子类对象中？
+
+#### 4.6.4 子父类构造和析构顺序
+
+**白发人送黑发人**
+
+[![W8I0Mt.png](https://z3.ax1x.com/2021/07/19/W8I0Mt.png)](https://imgtu.com/i/W8I0Mt)
+
+####  4.6.5 继承同名成员处理方式
+
+问题：当子类与父类出现同名的成员，如何通过子类对象，访问到子类或父类中同名的数据呢？
+
+- 访问子类同名成员  直接访问即可
+- 访问父类同名成员  需要加作用域 
+- 成员变量
+
+[![W8IDqf.png](https://z3.ax1x.com/2021/07/19/W8IDqf.png)](https://imgtu.com/i/W8IDqf)
+
+- 成员函数
+
+  [![W8IsZ8.png](https://z3.ax1x.com/2021/07/19/W8IsZ8.png)](https://imgtu.com/i/W8IsZ8)
+
+#### 4.6.6 继承同名静态成员处理方式
+
+[![W8IOzR.png](https://z3.ax1x.com/2021/07/19/W8IOzR.png)](https://imgtu.com/i/W8IOzR)
+
+[![W8oiJH.png](https://z3.ax1x.com/2021/07/19/W8oiJH.png)](https://imgtu.com/i/W8oiJH)
+
+#### 4.6.7 多继承语法
+
+C++允许一个类继承多个类
+
+语法：class 子类：继承方式  父类1，继承方式 父类2，......
+
+需加作用域区分不同父类
+
+#### 4.6.8 菱形继承
+
+[![W8oI1A.png](https://z3.ax1x.com/2021/07/19/W8oI1A.png)](https://imgtu.com/i/W8oI1A)
+
+[![W870MR.png](https://z3.ax1x.com/2021/07/19/W870MR.png)](https://imgtu.com/i/W870MR)
+
+以上所继承的animal的成员即通过指针实现仅为一个值
+
+甚至可以不用加作用域进行访问
+
+[![W87Wzd.png](https://z3.ax1x.com/2021/07/19/W87Wzd.png)](https://imgtu.com/i/W87Wzd)
