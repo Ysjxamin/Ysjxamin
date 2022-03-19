@@ -1,0 +1,19 @@
+/*
+ * ym_all_init.c
+ *
+ *  Created on: 2022年2月13日
+ *      Author: huawei
+ */
+
+#include "ym_all_h.h"
+#include "headfile.h"
+
+
+void ym_all_init(void)
+{
+     lcd_init();
+     lcd_clear(WHITE);
+     mpu6050_init();
+
+     //lcd_clear(WHITE);//蓝色;
+}

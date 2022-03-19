@@ -1,0 +1,31 @@
+/*
+ * ym_all_init.c
+ *
+ *  Created on: 2022年2月13日
+ *      Author: huawei
+ */
+
+#include "ym_all_h.h"
+#include "headfile.h"
+
+
+void ym_all_init(void)
+{
+     lcd_init();
+     lcd_clear(WHITE);
+     systick_delay_ms(STM0, 10);
+     ym_mpu6050_init();
+}
+void ym_mpu6050_init(void)
+{
+    simiic_init();
+    systick_delay_ms(STM0, 100);                                   //上电延时
+    mpu6050_self1_check();
+    simiic_write_reg(MPU6050_DEV_ADDR, PWR_MGMT_1, 0x00);   //解除休眠状态
+    simiic_write_reg(MPU6050_DEV_ADDR, SMPLRT_DIV, 0x07);   //125HZ采样率
+    simiic_write_reg(MPU6050_DEV_ADDR, MPU6050_CONFIG, 0x04);       //
+    simiic_write_reg(MPU6050_DEV_ADDR, GYRO_CONFIG, 0x18);  //2000
+    simiic_write_reg(MPU6050_DEV_ADDR, ACCEL_CONFIG, 0x10); //8g
+    simiic_write_reg(MPU6050_DEV_ADDR, User_Control, 0x00);
+    simiic_write_reg(MPU6050_DEV_ADDR, INT_PIN_CFG, 0x02);
+}

@@ -1,0 +1,2147 @@
+!SESSION 2022-01-21 21:44:58.205 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-01-21 21:47:21.978
+!MESSAGE Indexed 'Seekfree_TC377_RTThread_Smart_Car_Demo' (246 sources, 839 headers) in 19.2 sec: 157,830 declarations; 277,814 references; 6 unresolved inclusions; 4,845 syntax errors; 5,312 unresolved names (1.2%)
+!SESSION 2022-01-22 07:55:35.434 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 16:13:29.436
+!MESSAGE Project was boosted in 3477 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 16:13:29.564
+!MESSAGE Include paths were discovered in 125 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 16:17:43.791
+!MESSAGE Project was boosted in 2622 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 16:17:43.887
+!MESSAGE Include paths were discovered in 95 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 16:19:02.250
+!MESSAGE Project was boosted in 2704 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 16:19:02.346
+!MESSAGE Include paths were discovered in 94 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:03:06.648
+!MESSAGE Project was boosted in 2813 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:03:06.744
+!MESSAGE Include paths were discovered in 95 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:05:06.187
+!MESSAGE Project was boosted in 2789 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:05:06.281
+!MESSAGE Include paths were discovered in 93 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:07:04.836
+!MESSAGE Project was boosted in 2782 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:07:04.928
+!MESSAGE Include paths were discovered in 90 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:08:42.593
+!MESSAGE Project was boosted in 2768 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:08:42.687
+!MESSAGE Include paths were discovered in 92 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:09:48.471
+!MESSAGE Project was boosted in 2759 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:09:48.553
+!MESSAGE Include paths were discovered in 81 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:10:53.726
+!MESSAGE Project was boosted in 2766 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:10:53.812
+!MESSAGE Include paths were discovered in 85 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:19:59.621
+!MESSAGE Project was boosted in 2762 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:19:59.709
+!MESSAGE Include paths were discovered in 86 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:21:59.526
+!MESSAGE Project was boosted in 2807 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:21:59.615
+!MESSAGE Include paths were discovered in 87 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:22:33.807
+!MESSAGE Project was boosted in 2704 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:22:33.891
+!MESSAGE Include paths were discovered in 82 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:50:09.539
+!MESSAGE Project was boosted in 2711 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:50:09.623
+!MESSAGE Include paths were discovered in 83 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:50:55.940
+!MESSAGE Project was boosted in 2724 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:50:56.028
+!MESSAGE Include paths were discovered in 87 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:53:53.842
+!MESSAGE Project was boosted in 2702 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:53:53.924
+!MESSAGE Include paths were discovered in 81 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:55:41.270
+!MESSAGE Project was boosted in 2727 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:55:41.350
+!MESSAGE Include paths were discovered in 78 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:57:31.748
+!MESSAGE Project was boosted in 2692 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 17:57:31.824
+!MESSAGE Include paths were discovered in 76 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:36:56.941
+!MESSAGE Project was boosted in 2798 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:36:57.023
+!MESSAGE Include paths were discovered in 80 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:38:18.324
+!MESSAGE Project was boosted in 2755 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:38:18.404
+!MESSAGE Include paths were discovered in 79 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:50:38.110
+!MESSAGE Project was boosted in 2721 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:50:38.187
+!MESSAGE Include paths were discovered in 76 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:54:58.594
+!MESSAGE Project was boosted in 2743 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:54:58.677
+!MESSAGE Include paths were discovered in 81 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:55:24.242
+!MESSAGE Project was boosted in 2867 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:55:24.334
+!MESSAGE Include paths were discovered in 91 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:56:21.693
+!MESSAGE Project was boosted in 2883 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:56:21.780
+!MESSAGE Include paths were discovered in 86 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:57:46.555
+!MESSAGE Project was boosted in 2772 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:57:46.638
+!MESSAGE Include paths were discovered in 82 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:58:53.893
+!MESSAGE Project was boosted in 2764 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:58:53.974
+!MESSAGE Include paths were discovered in 80 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:59:12.066
+!MESSAGE Project was boosted in 2929 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 19:59:12.162
+!MESSAGE Include paths were discovered in 95 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:00:19.404
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:00:19.405
+!MESSAGE Project was boosted in 0 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:00:19.499
+!MESSAGE Include paths were discovered in 93 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:00:52.799
+!MESSAGE Project was boosted in 2733 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:00:52.878
+!MESSAGE Include paths were discovered in 78 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:03:04.376
+!MESSAGE Project was boosted in 2874 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:03:04.463
+!MESSAGE Include paths were discovered in 85 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:05:22.466
+!MESSAGE Project was boosted in 2737 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:05:22.545
+!MESSAGE Include paths were discovered in 78 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:10:30.652
+!MESSAGE Project was boosted in 2895 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:10:30.744
+!MESSAGE Include paths were discovered in 89 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:11:41.689
+!MESSAGE Project was boosted in 2714 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:11:41.767
+!MESSAGE Include paths were discovered in 77 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:15:47.033
+!MESSAGE Project was boosted in 2711 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:15:47.114
+!MESSAGE Include paths were discovered in 80 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:20:49.299
+!MESSAGE Project was boosted in 2939 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:20:49.408
+!MESSAGE Include paths were discovered in 107 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:24:25.901
+!MESSAGE Project was boosted in 2918 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:24:25.983
+!MESSAGE Include paths were discovered in 81 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:25:28.560
+!MESSAGE Project was boosted in 2700 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:25:28.637
+!MESSAGE Include paths were discovered in 76 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:25:43.283
+!MESSAGE Project was boosted in 2700 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-01-22 20:25:43.362
+!MESSAGE Include paths were discovered in 77 milliseconds.
+!SESSION 2022-01-24 15:48:37.931 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-01-24 16:12:09.130
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2022-02-12 16:42:02.789 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:16:58.398
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:16:58.400
+!MESSAGE Project was boosted in 10 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:16:58.741
+!MESSAGE Include paths were discovered in 337 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:23:44.935
+!MESSAGE Project was boosted in 6630 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:23:45.100
+!MESSAGE Include paths were discovered in 163 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:26:51.813
+!MESSAGE Project was boosted in 4955 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:26:51.940
+!MESSAGE Include paths were discovered in 126 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:30:59.260
+!MESSAGE Project was boosted in 5062 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:30:59.377
+!MESSAGE Include paths were discovered in 115 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:40:52.400
+!MESSAGE Project was boosted in 5378 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:40:52.538
+!MESSAGE Include paths were discovered in 135 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:41:10.285
+!MESSAGE Project was boosted in 3680 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:41:10.354
+!MESSAGE Include paths were discovered in 68 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:42:35.032
+!MESSAGE Project was boosted in 5439 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:42:35.148
+!MESSAGE Include paths were discovered in 114 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:43:09.861
+!MESSAGE Project was boosted in 5080 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:43:09.948
+!MESSAGE Include paths were discovered in 86 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:45:02.507
+!MESSAGE Project was boosted in 5045 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:45:02.599
+!MESSAGE Include paths were discovered in 90 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:45:39.924
+!MESSAGE Project was boosted in 5406 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-12 22:45:40.026
+!MESSAGE Include paths were discovered in 100 milliseconds.
+!SESSION 2022-02-13 09:46:12.464 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:23:53.683
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:23:53.685
+!MESSAGE Project was boosted in 9 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:23:53.919
+!MESSAGE Include paths were discovered in 232 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.850
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.851
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.852
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.852
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.853
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.853
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.854
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.855
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.857
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.857
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.857
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.858
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.858
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.858
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.859
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.859
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.860
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.861
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.862
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.862
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.863
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.863
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.864
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.865
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.865
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.866
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.867
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.867
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.868
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.868
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.869
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.869
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:24:30.870
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:24:30.871
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:24:30.961
+!MESSAGE Project was boosted in 3731 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:24:31.058
+!MESSAGE Include paths were discovered in 93 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.384
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.384
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.385
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.385
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.386
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.387
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.387
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.388
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.389
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.389
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.390
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.390
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.391
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.391
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.392
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.392
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.393
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.393
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.394
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.394
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.395
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.395
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.396
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.396
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.397
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.397
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.398
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.398
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.399
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.399
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.400
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.400
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2022-02-13 10:26:02.401
+!MESSAGE Element seekfree_peripheral does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element seekfree_peripheral does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:616)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:206)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:44)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-02-13 10:26:02.401
+!MESSAGE Element seekfree_peripheral does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:26:02.502
+!MESSAGE Project was boosted in 5279 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:26:02.625
+!MESSAGE Include paths were discovered in 120 milliseconds.
+
+!ENTRY org.eclipse.cdt.codan.core 4 1 2022-02-13 10:30:01.865
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Seekfree_TC377_RTThread_Smart_Car_Demo/Libraries/rtthread_libraries/seekfree_peripheral/SEEKFREE_FONT.h)[368]: java.lang.Exception: Resource '/Seekfree_TC377_RTThread_Smart_Car_Demo/Libraries/rtthread_libraries/seekfree_peripheral/SEEKFREE_FONT.h' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:698)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:689)
+	at org.eclipse.cdt.codan.internal.core.model.CodanProblemMarker.createMarker(CodanProblemMarker.java:83)
+	at org.eclipse.cdt.codan.internal.core.model.CodanMarkerProblemReporter$2.run(CodanMarkerProblemReporter.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.codan.internal.core.model.CodanMarkerProblemReporter.reconcileMarkers(CodanMarkerProblemReporter.java:186)
+	at org.eclipse.cdt.codan.internal.core.model.CodanMarkerProblemReporter.done(CodanMarkerProblemReporter.java:178)
+	at org.eclipse.cdt.codan.core.model.AbstractChecker.after(AbstractChecker.java:222)
+	at org.eclipse.cdt.codan.internal.core.CodanRunner.processResource(CodanRunner.java:105)
+	at org.eclipse.cdt.codan.internal.core.CodanRunner.runInEditor(CodanRunner.java:50)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:130)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:40)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:60)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:3109)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:100)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-02-13 10:30:01.866
+!MESSAGE Resource '/Seekfree_TC377_RTThread_Smart_Car_Demo/Libraries/rtthread_libraries/seekfree_peripheral/SEEKFREE_FONT.h' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/Seekfree_TC377_RTThread_Smart_Car_Demo/Libraries/rtthread_libraries/seekfree_peripheral/SEEKFREE_FONT.h' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:698)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:689)
+	at org.eclipse.cdt.codan.internal.core.model.CodanProblemMarker.createMarker(CodanProblemMarker.java:83)
+	at org.eclipse.cdt.codan.internal.core.model.CodanMarkerProblemReporter$2.run(CodanMarkerProblemReporter.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.codan.internal.core.model.CodanMarkerProblemReporter.reconcileMarkers(CodanMarkerProblemReporter.java:186)
+	at org.eclipse.cdt.codan.internal.core.model.CodanMarkerProblemReporter.done(CodanMarkerProblemReporter.java:178)
+	at org.eclipse.cdt.codan.core.model.AbstractChecker.after(AbstractChecker.java:222)
+	at org.eclipse.cdt.codan.internal.core.CodanRunner.processResource(CodanRunner.java:105)
+	at org.eclipse.cdt.codan.internal.core.CodanRunner.runInEditor(CodanRunner.java:50)
+	at org.eclipse.cdt.codan.internal.core.CodanBuilder.processResource(CodanBuilder.java:130)
+	at org.eclipse.cdt.codan.core.cxx.internal.model.CxxCodanReconciler.reconciledAst(CxxCodanReconciler.java:40)
+	at org.eclipse.cdt.codan.internal.ui.cxx.CodanCReconciler.reconciled(CodanCReconciler.java:60)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.reconciled(CEditor.java:3109)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:100)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:49:49.895
+!MESSAGE Project was boosted in 5219 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:49:50.017
+!MESSAGE Include paths were discovered in 121 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:51:08.840
+!MESSAGE Project was boosted in 5088 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 10:51:08.938
+!MESSAGE Include paths were discovered in 96 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:49:40.229
+!MESSAGE Project was boosted in 5240 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:49:40.337
+!MESSAGE Include paths were discovered in 106 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:50:24.050
+!MESSAGE Project was boosted in 5123 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:50:24.155
+!MESSAGE Include paths were discovered in 104 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:56:01.569
+!MESSAGE Project was boosted in 5482 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:56:01.663
+!MESSAGE Include paths were discovered in 93 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:56:27.560
+!MESSAGE Project was boosted in 5329 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:56:27.667
+!MESSAGE Include paths were discovered in 105 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:57:55.818
+!MESSAGE Project was boosted in 5269 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:57:55.941
+!MESSAGE Include paths were discovered in 122 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:58:25.563
+!MESSAGE Project was boosted in 5344 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 11:58:25.701
+!MESSAGE Include paths were discovered in 137 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 12:02:15.501
+!MESSAGE Project was boosted in 5218 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 12:02:15.614
+!MESSAGE Include paths were discovered in 111 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 12:02:37.697
+!MESSAGE Project was boosted in 5374 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 12:02:37.785
+!MESSAGE Include paths were discovered in 86 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 14:19:39.429
+!MESSAGE Project was boosted in 4691 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 14:19:39.517
+!MESSAGE Include paths were discovered in 87 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 14:22:17.845
+!MESSAGE Project was boosted in 5063 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 14:22:17.968
+!MESSAGE Include paths were discovered in 122 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 15:52:38.099
+!MESSAGE Project was boosted in 5210 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 15:52:38.197
+!MESSAGE Include paths were discovered in 97 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 15:53:10.103
+!MESSAGE Project was boosted in 5053 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 15:53:10.192
+!MESSAGE Include paths were discovered in 87 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 15:58:51.405
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 15:58:51.406
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 15:58:51.544
+!MESSAGE Include paths were discovered in 135 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 15:59:24.966
+!MESSAGE Project was boosted in 5147 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 15:59:25.054
+!MESSAGE Include paths were discovered in 87 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:00:32.904
+!MESSAGE Project was boosted in 5398 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:00:32.999
+!MESSAGE Include paths were discovered in 93 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:00:56.011
+!MESSAGE Project was boosted in 5309 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:00:56.119
+!MESSAGE Include paths were discovered in 107 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:14:08.111
+!MESSAGE Project was boosted in 5151 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:14:08.217
+!MESSAGE Include paths were discovered in 105 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:14:38.933
+!MESSAGE Project was boosted in 5085 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:14:39.043
+!MESSAGE Include paths were discovered in 108 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:15:22.439
+!MESSAGE Project was boosted in 5218 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:15:22.573
+!MESSAGE Include paths were discovered in 132 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:15:44.612
+!MESSAGE Project was boosted in 5433 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:15:44.726
+!MESSAGE Include paths were discovered in 113 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:17:03.265
+!MESSAGE Project was boosted in 5098 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:17:03.378
+!MESSAGE Include paths were discovered in 112 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:17:24.667
+!MESSAGE Project was boosted in 5128 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:17:24.754
+!MESSAGE Include paths were discovered in 85 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:18:45.156
+!MESSAGE Project was boosted in 5571 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:18:45.274
+!MESSAGE Include paths were discovered in 117 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:19:05.793
+!MESSAGE Project was boosted in 5352 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:19:05.896
+!MESSAGE Include paths were discovered in 101 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:20:07.138
+!MESSAGE Project was boosted in 5373 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:20:07.245
+!MESSAGE Include paths were discovered in 106 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:20:40.508
+!MESSAGE Project was boosted in 5163 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:20:40.617
+!MESSAGE Include paths were discovered in 109 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:23:08.265
+!MESSAGE Project was boosted in 5275 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:23:08.357
+!MESSAGE Include paths were discovered in 91 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:23:32.469
+!MESSAGE Project was boosted in 5437 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:23:32.556
+!MESSAGE Include paths were discovered in 85 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:26:16.034
+!MESSAGE Project was boosted in 5597 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:26:16.144
+!MESSAGE Include paths were discovered in 108 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:26:38.960
+!MESSAGE Project was boosted in 5556 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:26:39.060
+!MESSAGE Include paths were discovered in 98 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:29:25.345
+!MESSAGE Project was boosted in 5540 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:29:25.434
+!MESSAGE Include paths were discovered in 86 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:29:47.395
+!MESSAGE Project was boosted in 5568 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 16:29:47.488
+!MESSAGE Include paths were discovered in 92 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:48:39.915
+!MESSAGE Project was boosted in 5253 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:48:40.017
+!MESSAGE Include paths were discovered in 101 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:49:11.137
+!MESSAGE Project was boosted in 5351 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:49:11.221
+!MESSAGE Include paths were discovered in 82 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:49:59.260
+!MESSAGE Project was boosted in 6294 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:49:59.386
+!MESSAGE Include paths were discovered in 123 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:55:25.685
+!MESSAGE Project was boosted in 5787 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:55:25.783
+!MESSAGE Include paths were discovered in 97 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:56:03.706
+!MESSAGE Project was boosted in 5553 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:56:03.801
+!MESSAGE Include paths were discovered in 94 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:56:47.219
+!MESSAGE Project was boosted in 5053 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:56:47.322
+!MESSAGE Include paths were discovered in 102 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:57:44.157
+!MESSAGE Project was boosted in 5499 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:57:44.250
+!MESSAGE Include paths were discovered in 92 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:59:37.056
+!MESSAGE Project was boosted in 5452 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 17:59:37.164
+!MESSAGE Include paths were discovered in 106 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:00:20.218
+!MESSAGE Project was boosted in 5369 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:00:20.320
+!MESSAGE Include paths were discovered in 101 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:01:00.222
+!MESSAGE Project was boosted in 5763 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:01:00.319
+!MESSAGE Include paths were discovered in 96 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:13:34.005
+!MESSAGE Project was boosted in 5893 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:13:34.124
+!MESSAGE Include paths were discovered in 118 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:13:56.420
+!MESSAGE Project was boosted in 6010 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:13:56.518
+!MESSAGE Include paths were discovered in 96 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:15:14.158
+!MESSAGE Project was boosted in 5302 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:15:14.246
+!MESSAGE Include paths were discovered in 86 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:15:40.583
+!MESSAGE Project was boosted in 5601 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:15:40.699
+!MESSAGE Include paths were discovered in 115 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:17:42.394
+!MESSAGE Project was boosted in 5205 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:17:42.483
+!MESSAGE Include paths were discovered in 87 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:18:15.100
+!MESSAGE Project was boosted in 5399 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:18:15.197
+!MESSAGE Include paths were discovered in 96 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:18:38.134
+!MESSAGE Project was boosted in 5231 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:18:38.231
+!MESSAGE Include paths were discovered in 96 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:20:35.207
+!MESSAGE Project was boosted in 5363 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:20:35.331
+!MESSAGE Include paths were discovered in 122 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:20:56.637
+!MESSAGE Project was boosted in 5513 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:20:56.761
+!MESSAGE Include paths were discovered in 123 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:22:19.462
+!MESSAGE Project was boosted in 5557 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:22:19.552
+!MESSAGE Include paths were discovered in 89 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:22:47.760
+!MESSAGE Project was boosted in 5492 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 18:22:47.860
+!MESSAGE Include paths were discovered in 98 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:42:49.755
+!MESSAGE Project was boosted in 4705 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:42:49.840
+!MESSAGE Include paths were discovered in 84 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:43:13.745
+!MESSAGE Project was boosted in 4610 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:43:13.831
+!MESSAGE Include paths were discovered in 85 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:47:16.167
+!MESSAGE Project was boosted in 5529 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:47:16.270
+!MESSAGE Include paths were discovered in 102 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:48:52.046
+!MESSAGE Project was boosted in 5416 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:48:52.136
+!MESSAGE Include paths were discovered in 89 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:52:57.166
+!MESSAGE Project was boosted in 5523 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:52:57.287
+!MESSAGE Include paths were discovered in 119 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:53:51.236
+!MESSAGE Project was boosted in 5237 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:53:51.347
+!MESSAGE Include paths were discovered in 109 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:54:34.057
+!MESSAGE Project was boosted in 5301 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:54:34.152
+!MESSAGE Include paths were discovered in 94 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:54:57.127
+!MESSAGE Project was boosted in 5429 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:54:57.227
+!MESSAGE Include paths were discovered in 98 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:56:50.338
+!MESSAGE Project was boosted in 5782 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:56:50.447
+!MESSAGE Include paths were discovered in 107 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:57:17.908
+!MESSAGE Project was boosted in 5533 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 21:57:18.010
+!MESSAGE Include paths were discovered in 101 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:01:40.679
+!MESSAGE Project was boosted in 5478 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:01:40.762
+!MESSAGE Include paths were discovered in 81 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:02:13.764
+!MESSAGE Project was boosted in 5317 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:02:13.847
+!MESSAGE Include paths were discovered in 81 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:02:41.165
+!MESSAGE Project was boosted in 5914 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:02:41.244
+!MESSAGE Include paths were discovered in 78 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:08:06.531
+!MESSAGE Project was boosted in 3158 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:08:06.608
+!MESSAGE Include paths were discovered in 74 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:09:48.036
+!MESSAGE Project was boosted in 5170 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:09:48.156
+!MESSAGE Include paths were discovered in 117 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:10:11.458
+!MESSAGE Project was boosted in 5296 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:10:11.558
+!MESSAGE Include paths were discovered in 98 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:12:44.363
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:12:44.364
+!MESSAGE Project was boosted in 0 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:12:44.439
+!MESSAGE Include paths were discovered in 74 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:13:15.753
+!MESSAGE Project was boosted in 5591 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 22:13:15.865
+!MESSAGE Include paths were discovered in 111 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 23:29:37.726
+!MESSAGE Project was boosted in 2920 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 23:29:37.779
+!MESSAGE Include paths were discovered in 51 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 23:29:54.887
+!MESSAGE Project was boosted in 2883 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 23:29:54.935
+!MESSAGE Include paths were discovered in 46 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 23:30:43.928
+!MESSAGE Project was boosted in 2976 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 23:30:43.981
+!MESSAGE Include paths were discovered in 52 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 23:31:00.120
+!MESSAGE Project was boosted in 2894 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-13 23:31:00.173
+!MESSAGE Include paths were discovered in 53 milliseconds.
+!SESSION 2022-02-14 10:41:32.666 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-14 10:49:31.364
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-14 10:49:31.367
+!MESSAGE Project was boosted in 7 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-14 10:49:31.665
+!MESSAGE Include paths were discovered in 294 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-14 11:43:11.739
+!MESSAGE Project was boosted in 6589 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-02-14 11:43:11.876
+!MESSAGE Include paths were discovered in 135 milliseconds.
+!SESSION 2022-02-14 14:10:07.048 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem.quicklinks 4 0 2022-02-14 14:10:19.061
+!MESSAGE itools.infineon.com
+!STACK 0
+java.net.UnknownHostException: itools.infineon.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+	at java.base/java.net.URL.openStream(URL.java:1117)
+	at com.infineon.aurix.buildsystem.quicklinks.connector.URLLinksContainerConnector.getLinksContainerJsonInputStream(URLLinksContainerConnector.java:21)
+	at com.infineon.aurix.buildsystem.quicklinks.connector.CachedURLLinksContainerConnector.access$0(CachedURLLinksContainerConnector.java:1)
+	at com.infineon.aurix.buildsystem.quicklinks.connector.CachedURLLinksContainerConnector$1.openStream(CachedURLLinksContainerConnector.java:31)
+	at com.google.common.io.ByteSource.read(ByteSource.java:282)
+	at com.infineon.aurix.buildsystem.quicklinks.connector.CachedURLLinksContainerConnector.getLinksContainerJsonInputStream(CachedURLLinksContainerConnector.java:36)
+	at com.infineon.aurix.buildsystem.quicklinks.LinksManager.lambda$1(LinksManager.java:66)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:361)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:503)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at com.infineon.aurix.buildsystem.quicklinks.LinksManager.parseConfig(LinksManager.java:79)
+	at com.infineon.aurix.buildsystem.quicklinks.LinksManager.translateMetadata(LinksManager.java:94)
+	at com.infineon.aurix.buildsystem.quicklinks.view.QuickLinksView.lambda$8(QuickLinksView.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at com.infineon.aurix.buildsystem.quicklinks.view.QuickLinksView.fetchActiveCategories(QuickLinksView.java:185)
+	at com.infineon.aurix.buildsystem.quicklinks.view.QuickLinksView.createPartControl(QuickLinksView.java:65)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:155)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:994)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:994)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1078)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
