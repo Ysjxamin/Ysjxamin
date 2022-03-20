@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>background.png</file>
+        <file>button.png</file>
+        <file>dashboardSelected.png</file>
+        <file>LOGO.png</file>
+        <file>Screen Shot 2017-01-13 at 11.17.56.png</file>
+        <file>backbutton.jpg</file>
+        <file>background-3.jpg</file>
+        <file>card-container.png</file>
+        <file>dashboard-avatar.png</file>
+        <file>dashboard-equip.png</file>
+        <file>photo-back.png</file>
+        <file>1.png</file>
+    </qresource>
+    <qresource prefix="/full">
+        <file>full/1.png</file>
+        <file alias=":/full/full/2.png">full/2.png</file>
+        <file>full/3.png</file>
+        <file>full/4.png</file>
+        <file>full/5.png</file>
+        <file>full/6.png</file>
+        <file>full/7.png</file>
+        <file>full/8.png</file>
+        <file>full/10.png</file>
+        <file>full/11.png</file>
+        <file>full/12.png</file>
+        <file>full/13.png</file>
+    </qresource>
+</RCC>

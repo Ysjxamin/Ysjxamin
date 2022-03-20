@@ -29,12 +29,13 @@
 	KEY_Init();          //初始化与按键连接的硬件接口
 	 BEEP_Init(); //初始化蜂鸣器端口
 	 //printf("wdnmd");
+	 /*
 while(DS18B20_Init())
 {
 	printf("DS18B20 ERROR!!!");
 	delay_ms(200);
 }
- 
+ */
  	while(1)
 	{
 		temperature=DS18B20_Get_Temp();
@@ -58,7 +59,7 @@ while(DS18B20_Init())
 		}else
 		{
 			times++;
-			if(times%300==0)printf("temperature=%d",temp);  
+			if(times%300==0)printf("t%dp",temp);  
 			delay_ms(10);   
 		}
 	}		
