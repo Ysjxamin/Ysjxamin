@@ -28,7 +28,7 @@ public:
 private slots:
     void on_scanSerialBtn_clicked();
 
-   // void Serial_read();
+    void Serial_read();
 
     void on_openSerialBtn_clicked();
 
@@ -53,10 +53,9 @@ private:
     QDateTime dateTime;
 
    public:
- void testdata();
- void Serial_read();  //  int a;int b;
-
-QString StrI1;
-QString StrI2;
+    int a,b;
+    QString StrI1,StrI2;
+    QString exceldata[10][10];
+    void read();
 };
 #endif // SERIALGETDATA_H

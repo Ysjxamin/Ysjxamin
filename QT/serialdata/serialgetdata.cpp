@@ -18,7 +18,8 @@ SerialGetData::SerialGetData(QWidget *parent)
     serialport = new QSerialPort();//分配内存
     ui->dateTimeEdit->setDisabled(true);//
     timerid = startTimer(1000);//开启定时器，每隔1秒
-    //this->testdata();
+    this->read();
+    this->Serial_read();
 }
 
 SerialGetData::~SerialGetData()
@@ -43,6 +44,32 @@ void SerialGetData::Serial_read()
     //UI界面显示ID号 
     ui->lcdHuim->display(StrI2);
 
+    for (int i = 1; i < 1 + a; i++)
+        {
+            for (int j = 1; j < 1 + b; j++)
+            {
+                if(i>=2&&j==1)
+                {
+                qDebug()<<exceldata[i][j];
+                if(exceldata[i][j]=="E3C8AB4")
+                {
+                    //QString Xming=db.exceldata[i][j+1];
+                    qDebug()<<exceldata[i][2];
+                }
+                else if(exceldata[i][j]=="7CBDA38")
+                {
+                    QString Xming =exceldata[i][j+1];
+                    qDebug()<<Xming;
+                }
+                else if(exceldata[i][j]=="5C88271C")
+                {
+                    QString Xming=exceldata[i][j+1];
+                    qDebug()<<Xming;
+                }
+                }
+            }
+        }
+
    // DataBase db;
    //this->testdata();
 
@@ -61,49 +88,6 @@ void SerialGetData::Serial_read()
         ui->labelXming->setText("老六");
         serialport->write("老六\n");
     }
-    //ui->labelXming->setText(StrI1);
-    //ui->lcdHuim_2->display(StrI1);
-    //ui->lcdXming->display(StrI1);
-    //ui->lcdTemp->display(StrI2);
-    /*
-    QByteArray recvData;
-    try {
-        recvData = SerialGetData::serial_recv_Data();//从串口接收数据
-    } catch (MyExcption &err) {
-        QMessageBox::warning(NULL , "提示", err.what());
-        return;
-    }
-    QString receive = QString::fromLocal8Bit(recvData.constData());
-    //json格式数据解析 比如：{"温度":"10℃","湿度":"20%"}
-    QJsonParseError err;
-    QByteArray arr ;
-    arr.append(receive);
-    QJsonDocument doc = QJsonDocument::fromJson(arr,&err);
-    if(err.error != QJsonParseError::NoError){
-        qDebug() << "转换失败";
-        return;
-    }
-    QJsonObject obj = doc.object();
-    temp = SerialGetData::getNumsFromStr(obj.value("姓名").toString());
-    humi = SerialGetData::getNumsFromStr(obj.value("编号").toString());
-   // qDebug() << receive;
-*/
-    /*分割字符串的方法*/
-    /*//自定义数据格式（温度:10-湿度:20或者10℃-20%）
-    QStringList list = receive.split("-");//以:分割字符串
-    if(list[0].contains("温度") || list[0].contains("℃")){
-        temp = SerialGetData::getNumsFromStr(list[0]);
-        humi = SerialGetData::getNumsFromStr(list[1]);
-    }
-    else if(list[0].contains("湿度") || list[0].contains("%")){
-        temp = SerialGetData::getNumsFromStr(list[1]);
-        humi = SerialGetData::getNumsFromStr(list[0]);
-    }
-    else{
-        QMessageBox::information(NULL,"提示","数据格式错误",QMessageBox::Ok);
-        return;
-    }
-    */
 
 }
 //串口接收
@@ -280,9 +264,71 @@ void SerialGetData::on_eDisconnectBtn_2_clicked()
   emit showdatabase();  //发射信号，让信号传送到数据库页面
 
 }
-void SerialGetData::testdata()
+void SerialGetData::read()
 {
+    QString path=QFileDialog::getOpenFileName(this,"open","../","execl(*.xlsx)");
+
+        if(path.isEmpty()==false)
+        {
+            //文件对象
+              QFile file(path);
+              bool flag = file.open(QIODevice::ReadOnly);
+              if(flag==true)
+              {
+            QAxObject *excel = new QAxObject(this);//建立excel操作对象
+            excel->setControl("Excel.Application");//连接Excel控件
+            excel->setProperty("Visible", false);//不显示窗体看效果
+            excel->setProperty("DisplayAlerts", false);//不显示警告看效果
+            /*********获取COM文件的一种方式************/
+           QAxObject *workbooks = excel->querySubObject("WorkBooks");
+           //获取工作簿(excel文件)集合
+           workbooks->dynamicCall("Open(const QString&)", path);//path至关重要，获取excel文件的路径
+          //打开一个excel文件
+           QAxObject *workbook = excel->querySubObject("ActiveWorkBook");
+           QAxObject *worksheet = workbook->querySubObject("WorkSheets(int)",1);//访问excel中的工作表中第一个单元格
+           QAxObject *usedRange = worksheet->querySubObject("UsedRange");//sheet的范围
+           /*********获取COM文件的一种方式************/
+                              //获取打开excel的起始行数和列数和总共的行数和列数
+                              int intRowStart = usedRange->property("Row").toInt();//起始行数
+                              int intColStart = usedRange->property("Column").toInt(); //起始列数
+                              QAxObject *rows, *columns;
+                              rows = usedRange->querySubObject("Rows");//行
+                              columns = usedRange->querySubObject("Columns");//列
+                              int intRow = rows->property("Count").toInt();//行数
+                              int intCol = columns->property("Count").toInt();//列数
+                              //起始行列号
+                              //qDebug()<<intRowStart;
+                              //qDebug()<<intColStart;
+                              //行数和列数
+                             // qDebug()<<intRow;
+                              //qDebug()<<intCol;
+                              this->a=intRow-intRowStart+1;
+                              this->b=intCol-intColStart+1;
+                                                  QByteArray text[a][b];
+                                                  //QString exceldata[a][b];
+                                                  int coerow=0,coecol=0;
+                                                  for (int i = intRowStart; i < intRowStart + intRow; i++,coerow++)
+                                                      {
+                                                          coecol=0;//务必是要恢复初值的
+                                                          for (int j = intColStart; j < intColStart + intCol; j++,coecol++)
+                                                          {
+
+                                                              QAxObject  *cell = excel->querySubObject("Cells(Int, Int)", i, j );
+                                                              QVariant cellValue = cell->dynamicCall("value");
+                                                              text[coerow][coecol]=cellValue.toByteArray();//QVariant转换为QByteArray
+                                                               exceldata[coerow][coecol]=QString(text[coerow][coecol]);//QByteArray转换为QString
+                                                              qDebug()<<exceldata[coerow][coecol];
+                                                          }
+                                                      }
+                                                  workbook->dynamicCall( "Close(Boolean)", false );
+                                                  excel->dynamicCall( "Quit(void)" );
+                                                  delete excel;
+                                                  QMessageBox::warning(this,tr("读取情况"),tr("读取完成！"),QMessageBox::Yes);
 
 
+        }
+              file.close();
+
+    }
 
 }

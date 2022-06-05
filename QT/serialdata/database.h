@@ -19,7 +19,6 @@ class DataBase : public QWidget
 
 public:
     explicit DataBase(QWidget *parent = nullptr);
-    friend class SerialGetData;
     ~DataBase();
 private slots:
     void recievejump(); //接受跳转信号槽函数
@@ -50,11 +49,7 @@ private:
 
     QVector<QVector<QString>> array;	//将每行数据汇总，类似于二维数组，但不需要手动定义空间大小，造成内存浪费
 public:
-    int a,b;
-    QString exceldata[6][6];
-        void lead_exceltodb();
-        void newdbandquery();
-      //  DataBase* database;
+
 
 };
 
