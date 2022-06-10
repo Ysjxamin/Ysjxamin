@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: aming aming, aming, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  D:\Soft\Study Soft\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      CMSIS_AGDI.dll V1.21.0.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+D:\系统文件\桌面\2022.5.20ddl合泰资料\合泰\2022_01 32培訓資料\HT32_STD_5xxxx_FWLib\example\USART\Interrupt\MDK_ARMv5\Project_52352.uvprojx
+Project File Date:  06/10/2022
+
+<h2>Output:</h2>
+Build target 'HT32'
+compiling main.c...
+..\main.c(178): warning:  #188-D: enumerated type mixed with another type
+                                  GPIO_WriteOutBits(HTCFG_LED0, HTCFG_OUTPUT_LED0_GPIO_PIN, 0);//LED亮为0 红外模块有遮挡亮 为0
+..\main.c(197): warning:  #188-D: enumerated type mixed with another type
+                                  GPIO_WriteOutBits(HTCFG_LED0, HTCFG_OUTPUT_LED0_GPIO_PIN, 0);//LED亮为0 红外模块有遮挡亮 为0
+..\main.c(216): warning:  #188-D: enumerated type mixed with another type
+                                  GPIO_WriteOutBits(HTCFG_LED0, HTCFG_OUTPUT_LED0_GPIO_PIN, 0);//LED亮为0 红外模块有遮挡亮 为0
+..\main.c(322): warning:  #223-D: function "strlen" declared implicitly
+    HZ_Length = strlen((char*)HZdata);                  //需要发送文本的长度
+..\main.c(342): warning:  #223-D: function "memcpy" declared implicitly
+    memcpy(&Frame_Info[5], HZdata, HZ_Length);
+..\main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=3108 RO-data=100 RW-data=36 ZI-data=844  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin -o ".\HT32\52352\Obj\HT32.axf.bin" ".\HT32\52352\Obj\HT32.axf"
+".\HT32\52352\Obj\HT32.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\系统文件\桌面\2022.5.20ddl合泰资料\合泰\2022_01 32培訓資料\HT32_STD_5xxxx_FWLib\example\USART\Interrupt\MDK_ARMv5\RTE
+  D:\Soft\Study Soft\Keil5\ARM\PACK\Holtek\HT32_DFP\1.0.32
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
