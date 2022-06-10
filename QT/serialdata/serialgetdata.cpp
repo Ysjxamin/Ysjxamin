@@ -32,17 +32,43 @@ SerialGetData::~SerialGetData()
 //串口获取
 void SerialGetData::Serial_read()
 {
+
+    QString StrI1,StrI2;
+   // QString buf;
     //串口读取数据
-    QByteArray mytemp=serialport->readAll();
+    mytemp=serialport->readAll();
+    QString a1;
+    //a1.append(buf.mid(0,5));
+    if(!mytemp.isEmpty())
+    {
+       buf.append(tr(mytemp));
+    }
+    else
+    {
+         qDebug()<<"over";
+    }
+    //a1="hello";
+    //buf="world";
+    //a1.append(buf);
     qDebug()<<mytemp;
+    qDebug()<<buf;
+    //qDebug()<<a1;
     //对数据进行拆分，设定通讯协议
     //读取受检人 NFC ID号
-     StrI1=tr(mytemp.mid(mytemp.indexOf("I")+1,mytemp.indexOf("D")-mytemp.indexOf("I")-1));
-     StrI2=tr(mytemp.mid(mytemp.indexOf("B")+1,mytemp.indexOf("H")-mytemp.indexOf("B")-1));
-    qDebug()<<StrI1;
-    qDebug()<<StrI2;
+     StrI1=buf.mid(buf.indexOf("I")+1,buf.indexOf("D")-buf.indexOf("I")-1);
+if(buf.length()>100)
+{
+    buf.clear();
+}
+     StrI2=buf.mid(buf.indexOf("B")+1,buf.indexOf("H")-buf.indexOf("B")-1);
+//char message=StrI1.at(0).unicode();
+ // qDebug("%s",ptr1);
+  qDebug()<<times++;
+   qDebug()<<StrI1;
+    //  qDebug()<<StrI2;
     //UI界面显示ID号 
     ui->lcdHuim->display(StrI2);
+    ui->labelBhao->setText(StrI1);
 
     for (int i = 1; i < 1 + a; i++)
         {
@@ -51,44 +77,49 @@ void SerialGetData::Serial_read()
                 if(i>=2&&j==1)
                 {
                 qDebug()<<exceldata[i][j];
-                if(exceldata[i][j]=="E3C8AB4")
-                {
-                    //QString Xming=db.exceldata[i][j+1];
-                    qDebug()<<exceldata[i][2];
-                }
-                else if(exceldata[i][j]=="7CBDA38")
-                {
-                    QString Xming =exceldata[i][j+1];
-                    qDebug()<<Xming;
-                }
-                else if(exceldata[i][j]=="5C88271C")
+                if(exceldata[i][j]==StrI1)
                 {
                     QString Xming=exceldata[i][j+1];
+                     ui->labelXming->setText(Xming);
+                    qDebug()<<exceldata[i][2];
+                }
+                /*
+                else if(exceldata[i][j]==StrI1)
+                {
+                    QString Xming =exceldata[i][j+1];
+                      ui->labelXming->setText(Xming);
                     qDebug()<<Xming;
                 }
+                else if(exceldata[i][j]==StrI1)
+                {
+                    QString Xming=exceldata[i][j+1];
+                     ui->labelXming->setText(Xming);
+                    qDebug()<<Xming;
+                }
+                */
                 }
             }
         }
 
    // DataBase db;
    //this->testdata();
-
-    if(StrI1=="5C88271C")
-    {
-        ui->labelXming->setText("杨铭");
-        serialport->write("杨铭\n");
-    }
-    else if(StrI1=="E3C8AB4")
+/*
+    if(StrI1=="51092B7B")
     {
         ui->labelXming->setText("俊荣");
         serialport->write("俊荣\n");
+    }
+    else if(StrI1=="E3C8AB04")
+    {
+        ui->labelXming->setText("杨铭");
+        serialport->write("杨铭\n");
     }
     else if(StrI1=="7CBDA38")
     {
         ui->labelXming->setText("老六");
         serialport->write("老六\n");
     }
-
+*/
 }
 //串口接收
 QByteArray SerialGetData::serial_recv_Data() throw(MyExcption)

@@ -54,7 +54,10 @@ private:
 
    public:
     int a,b;
-    QString StrI1,StrI2;
+    int times=0;
+    QString buf;
+    QByteArray mytemp;
+    //QString StrI1,StrI2;
     QString exceldata[10][10];
     void read();
 };
