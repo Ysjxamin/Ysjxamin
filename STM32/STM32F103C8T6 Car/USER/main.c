@@ -52,7 +52,8 @@ int number=0;
 	TB6612_PWM_Out(900, 900);	//30%PWM
   //Car_Go();
 	GPIO_ResetBits(GPIOC,GPIO_Pin_13);						 //PC.13 输出高
-		RC522_Init();
+	//RC522 NFC
+	RC522_Init();//初始化
 	PcdReset();
  	PcdAntennaOff(); 
 	delay_ms(10);
@@ -62,10 +63,7 @@ int number=0;
   TIM4_Config(1000-1,7200-1); 
 	while(1) 
 	{	
-		 if( Remote != 0 )              //??????????????????,?????????0????Remote???????????  
-        {
-            Remote_Scan( Remote );     //??????
-        }  
+
 /*		
 			ch=getchar();
 		
