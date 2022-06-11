@@ -173,16 +173,19 @@ int number=0;
 			 ch_flag=1;
 			 if(ch=='a')
 			 {
-				 SYN_FrameInfo(2, "[v7][m1][t5]俊荣信息录入成功");			
-        UxART_TxTest();				 
+			 
 				  GPIO_WriteOutBits(HTCFG_LED0, HTCFG_OUTPUT_LED0_GPIO_PIN, 0);//LED亮为0 红外模块有遮挡亮 为0
 				if(jr_flag==0)
 			{     
 			number++; 
 			n1=number;
+								 //SYN_FrameInfo(2, "[v7][m1][t5]俊荣信息录入成功");			
+        //UxART_TxTest();	
 			}
 			jr_flag=1;
-					printf("B%dH",n1);
+			printf("Q");
+			printf("%d",n1);
+			printf("S");
 			printf("I");
 			//temp=g_ucTempbuf[i];	
 			printf("51092B7B");			
@@ -192,28 +195,25 @@ int number=0;
 			 }
 			 else if(ch=='b')
 			 {
-				  SYN_FrameInfo(2, "[v7][m1][t5]杨铭信息录入成功");
-  UxART_TxTest();
+
 				  GPIO_WriteOutBits(HTCFG_LED0, HTCFG_OUTPUT_LED0_GPIO_PIN, 0);//LED亮为0 红外模块有遮挡亮 为0
 				 if(ym_flag==0)
 			{     
 			number++; 
 			n2=number;
+		 //SYN_FrameInfo(2, "[v7][m1][t5]杨铭信息录入成功");
+  //UxART_TxTest();
 			}
 			ym_flag=1;
-			printf("B%dH",n2);
+			printf("Q");
+			printf("%d",n2);
+			printf("S");
 						printf("I");
 
 			//temp=g_ucTempbuf[i];	
 			printf("E3C8AB04");			
 		printf("D");	 
 				 
-			 }
-			 	else if(bh=='1')
-			 {
-				  SYN_FrameInfo(2, "[v7][m1][t5]杨铭信息录入成功");
-          UxART_TxTest();
-				  GPIO_WriteOutBits(HTCFG_LED0, HTCFG_OUTPUT_LED0_GPIO_PIN, 0);//LED亮为0 红外模块有遮挡亮 为0
 			 }
 			 gURRx_Length =0;
 		 }
