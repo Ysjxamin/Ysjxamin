@@ -20,6 +20,7 @@ SerialGetData::SerialGetData(QWidget *parent)
     timerid = startTimer(1000);//开启定时器，每隔1秒
     this->read();
     this->Serial_read();
+
 }
 
 SerialGetData::~SerialGetData()
@@ -56,19 +57,21 @@ void SerialGetData::Serial_read()
     //对数据进行拆分，设定通讯协议
     //读取受检人 NFC ID号
      StrI1=buf.mid(buf.indexOf("I")+1,buf.indexOf("D")-buf.indexOf("I")-1);
-if(buf.length()>100)
-{
-    buf.clear();
-}
-     StrI2=buf.mid(buf.indexOf("B")+1,buf.indexOf("H")-buf.indexOf("B")-1);
+     StrI2=buf.mid(buf.indexOf("Q")+1,buf.indexOf("S")-buf.indexOf("Q")-1);
+     if(buf.length()>200)
+     {
+         buf.clear();
+     }
 //char message=StrI1.at(0).unicode();
  // qDebug("%s",ptr1);
   qDebug()<<times++;
    qDebug()<<StrI1;
     //  qDebug()<<StrI2;
     //UI界面显示ID号 
+
     ui->lcdHuim->display(StrI2);
-    ui->labelBhao->setText(StrI1);
+    qDebug()<<StrI2;
+    //ui->labelBhao->setText(StrI1);
 
     for (int i = 1; i < 1 + a; i++)
         {
@@ -76,50 +79,41 @@ if(buf.length()>100)
             {
                 if(i>=2&&j==1)
                 {
+
                 qDebug()<<exceldata[i][j];
                 if(exceldata[i][j]==StrI1)
                 {
                     QString Xming=exceldata[i][j+1];
                      ui->labelXming->setText(Xming);
                     qDebug()<<exceldata[i][2];
+                     ui->labelBhao->setText(exceldata[i][1]);
+
+                  //DataBase database;
+                    if(exceldata[i][5]=='0')
+                    {
+
+                        this->time++;
+                        this->id=StrI1;
+                        this->name=Xming;
+                        //this->num=StrI2;
+                        emit lead_todb();
+
+                        exceldata[i][5]='1';
+
+                    }
+
+                 //database._name=Xming;
+                 //database._id=StrI1;
+                 //database._num=StrI2;
+                // database.lead_serialtodb();
+                    //this->name=Xming;
+
                 }
-                /*
-                else if(exceldata[i][j]==StrI1)
-                {
-                    QString Xming =exceldata[i][j+1];
-                      ui->labelXming->setText(Xming);
-                    qDebug()<<Xming;
-                }
-                else if(exceldata[i][j]==StrI1)
-                {
-                    QString Xming=exceldata[i][j+1];
-                     ui->labelXming->setText(Xming);
-                    qDebug()<<Xming;
-                }
-                */
+
                 }
             }
         }
 
-   // DataBase db;
-   //this->testdata();
-/*
-    if(StrI1=="51092B7B")
-    {
-        ui->labelXming->setText("俊荣");
-        serialport->write("俊荣\n");
-    }
-    else if(StrI1=="E3C8AB04")
-    {
-        ui->labelXming->setText("杨铭");
-        serialport->write("杨铭\n");
-    }
-    else if(StrI1=="7CBDA38")
-    {
-        ui->labelXming->setText("老六");
-        serialport->write("老六\n");
-    }
-*/
 }
 //串口接收
 QByteArray SerialGetData::serial_recv_Data() throw(MyExcption)
@@ -291,8 +285,10 @@ void SerialGetData::timerEvent(QTimerEvent *event)
 
 void SerialGetData::on_eDisconnectBtn_2_clicked()
 {
-  this->hide();  //屏蔽交互界面
+ // this->hide();  //屏蔽交互界面
   emit showdatabase();  //发射信号，让信号传送到数据库页面
+
+ // emit lead_todb();
 
 }
 void SerialGetData::read()

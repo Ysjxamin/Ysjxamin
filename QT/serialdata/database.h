@@ -22,6 +22,8 @@ public:
     ~DataBase();
 private slots:
     void recievejump(); //接受跳转信号槽函数
+
+
     void on_pushButton_clicked();
 
     void on_clearquery_clicked();
@@ -37,7 +39,6 @@ private:
 
     QSqlDatabase db=QSqlDatabase::addDatabase("QSQLITE");
 
-    QSqlTableModel *model;
 
     QSqlQuery query;
 
@@ -48,8 +49,18 @@ private:
     QVector<QString> arr;	//存储每一行数据
 
     QVector<QVector<QString>> array;	//将每行数据汇总，类似于二维数组，但不需要手动定义空间大小，造成内存浪费
+
 public:
 
+    QSqlTableModel *model;
+    void create_db();
+
+
+    void lead_serialtodb();
+
+    QString _id;
+    QString _name;
+    int _num;
 
 };
 

@@ -41,6 +41,8 @@ private slots:
     void on_eDisconnectBtn_2_clicked();
 signals:
     void showdatabase();//跳转到数据显示页面
+
+    void lead_todb();
 private:
     Ui::SerialGetData *ui;
 
@@ -53,6 +55,10 @@ private:
     QDateTime dateTime;
 
    public:
+    QString id;
+    QString name;
+    int num;
+    int time;
     int a,b;
     int times=0;
     QString buf;

@@ -8,6 +8,15 @@ DataBase::DataBase(QWidget *parent) :
     ui(new Ui::DataBase)
 {
     ui->setupUi(this);
+
+}
+
+DataBase::~DataBase()
+{
+    delete ui;
+}
+void DataBase::create_db()
+{
     //这种方式是一个具体的可以长期保存的数据库
     db.setDatabaseName("mysql.db");
     if(false== db.open())
@@ -17,7 +26,7 @@ DataBase::DataBase(QWidget *parent) :
 
     }
     QSqlQuery query(db);
-    QString idquery="create table students(id int primary key,name text,num int)";
+    QString idquery="create table students(id text primary key,name text,num int)";
     query.exec(idquery);
     model=new QSqlTableModel(this);
     model->setTable("students");
@@ -26,9 +35,15 @@ DataBase::DataBase(QWidget *parent) :
     ui->tableView->setModel(model);
 }
 
-DataBase::~DataBase()
+void DataBase::lead_serialtodb()
 {
-    delete ui;
+    int rownum=model->rowCount();//获取行数
+     qDebug()<<rownum;
+     model->insertRow(rownum);
+     model->setData(model->index(rownum,0),_id);
+     model->setData(model->index(rownum,1),_name);
+     model->setData(model->index(rownum,2),(rownum+1));
+     model->submitAll();
 }
 void DataBase::recievejump()
 {
@@ -72,7 +87,6 @@ void DataBase::on_clearquery_clicked()
 void DataBase::on_lookfor_clicked()
 {
     //查询
-
     QString name = ui->lineEdit->text();
     model->setFilter(QString("name = '%1'").arg(name));
     model->select();

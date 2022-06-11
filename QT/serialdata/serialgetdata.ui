@@ -410,7 +410,7 @@ boder:none;</string>
       <rect>
        <x>60</x>
        <y>30</y>
-       <width>400</width>
+       <width>406</width>
        <height>321</height>
       </rect>
      </property>
@@ -623,7 +623,7 @@ border-color: rgb(255, 0, 0);</string>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>23</height>
     </rect>
    </property>
   </widget>
