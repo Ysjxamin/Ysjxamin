@@ -21,19 +21,168 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.6.0_KEIL
 Dialog DLL:      TARMSTM.DLL V1.64.0.0
  
 <h2>Project:</h2>
-D:\系统文件\桌面\2022.5.20ddl合泰资料\STM32F103C8T6 Car\USER\Template.uvprojx
-Project File Date:  05/19/2022
+D:\Qianrushi\STM32\STM32F103C8T6 Holtek Car\USER\Template.uvprojx
+Project File Date:  06/07/2022
 
 <h2>Output:</h2>
 Build target 'Template'
+compiling main.c...
+..\HARDWARE\OLED\oled.h(54): warning:  #1295-D: Deprecated declaration OLED_ShowCar - give arg types
+  void OLED_ShowCar();
+..\HARDWARE\OLED\oled.h(55): warning:  #1295-D: Deprecated declaration OLED_ShowYangM - give arg types
+  void OLED_ShowYangM();
+..\HARDWARE\OLED\oled.h(56): warning:  #1295-D: Deprecated declaration OLED_ShowJr - give arg types
+  void OLED_ShowJr();
+..\HARDWARE\USART2\usart2.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\USART3\usart3.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(42): warning:  #223-D: function "LED_Init" declared implicitly
+        LED_Init();
+main.c(246): warning:  #1-D: last line of file ends without a newline
+  }
+main.c(28): warning:  #177-D: variable "n1" was declared but never referenced
+  int n1,n2=0;
+main.c(28): warning:  #177-D: variable "n2" was declared but never referenced
+  int n1,n2=0;
+main.c(29): warning:  #177-D: variable "number" was declared but never referenced
+  int number=0;
+main.c(30): warning:  #177-D: variable "str" was declared but never referenced
+        char *str="hello world";
+main.c(31): warning:  #177-D: variable "hsjc_flag" was declared but never referenced
+        u8 hsjc_flag=1;
+main.c: 12 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_md.s...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling oled.c...
+..\HARDWARE\OLED\oled.h(54): warning:  #1295-D: Deprecated declaration OLED_ShowCar - give arg types
+  void OLED_ShowCar();
+..\HARDWARE\OLED\oled.h(55): warning:  #1295-D: Deprecated declaration OLED_ShowYangM - give arg types
+  void OLED_ShowYangM();
+..\HARDWARE\OLED\oled.h(56): warning:  #1295-D: Deprecated declaration OLED_ShowJr - give arg types
+  void OLED_ShowJr();
+..\HARDWARE\OLED\oled.c(100): warning:  #9-D: nested comment is not allowed
+  /****************************************************************/
+..\HARDWARE\OLED\oled.c: 4 warnings, 0 errors
+compiling timer.c...
+compiling key.c...
+compiling led.c...
+compiling syn6288.c...
+..\HARDWARE\USART3\usart3.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\USART2\usart2.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\SYN6288\syn6288.c(55): warning:  #550-D: variable "Com_Len" was set but never used
+    u8 Com_Len;
+..\HARDWARE\SYN6288\syn6288.c: 3 warnings, 0 errors
+compiling IREva.c...
+..\HARDWARE\IREVA\IREva.c(58): warning:  #1-D: last line of file ends without a newline
+  /*********************************************END OF FILE**********************/
+..\HARDWARE\IREVA\IREva.c: 1 warning, 0 errors
+compiling hcsr04.c...
+..\HARDWARE\HCSR04\hcsr04.h(13): warning:  #1295-D: Deprecated declaration hcsr04_NVIC - give arg types
+  void hcsr04_NVIC();
+..\HARDWARE\HCSR04\hcsr04.h(14): warning:  #1295-D: Deprecated declaration Hcsr04Init - give arg types
+  void Hcsr04Init();
+..\HARDWARE\HCSR04\hcsr04.h(15): warning:  #1295-D: Deprecated declaration OpenTimerForHc - give arg types
+  static void OpenTimerForHc();
+..\HARDWARE\HCSR04\hcsr04.h(16): warning:  #1295-D: Deprecated declaration CloseTimerForHc - give arg types
+  static void CloseTimerForHc();
+..\HARDWARE\HCSR04\hcsr04.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\HCSR04\hcsr04.c(117): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\HCSR04\hcsr04.c: 6 warnings, 0 errors
+compiling beep.c...
+compiling pwm.c...
+..\HARDWARE\PWM\pwm.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\PWM\pwm.c: 1 warning, 0 errors
+compiling TB6612.c...
+compiling usart3.c...
+..\HARDWARE\USART3\usart3.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\USART3\usart3.c: 1 warning, 0 errors
+compiling usart2.c...
+..\HARDWARE\USART2\usart2.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\USART2\usart2.c(68): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\USART2\usart2.c: 2 warnings, 0 errors
+compiling rc522.c...
+..\HARDWARE\RC522\rc522.c(56): warning:  #68-D: integer conversion resulted in a change of sign
+     {   status = MI_ERR;  
+..\HARDWARE\RC522\rc522.c(93): warning:  #68-D: integer conversion resulted in a change of sign
+           {   status = MI_ERR;    }
+..\HARDWARE\RC522\rc522.c(129): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = MI_ERR;    }
+..\HARDWARE\RC522\rc522.c(161): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = MI_ERR;   }
+..\HARDWARE\RC522\rc522.c(190): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = MI_ERR;   }
+..\HARDWARE\RC522\rc522.c(214): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = MI_ERR;   }
+..\HARDWARE\RC522\rc522.c(225): warning:  #68-D: integer conversion resulted in a change of sign
+          {   status = MI_ERR;   }
+..\HARDWARE\RC522\rc522.c(253): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = MI_ERR;   }
+..\HARDWARE\RC522\rc522.c(263): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
+          if (status != MI_ERR)
+..\HARDWARE\RC522\rc522.c(276): warning:  #68-D: integer conversion resulted in a change of sign
+          {   status = MI_ERR;   }
+..\HARDWARE\RC522\rc522.c(300): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = MI_ERR;   }
+..\HARDWARE\RC522\rc522.c(311): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
+          if (status != MI_ERR)
+..\HARDWARE\RC522\rc522.c(316): warning:  #68-D: integer conversion resulted in a change of sign
+      {    return MI_ERR;   }
+..\HARDWARE\RC522\rc522.c(326): warning:  #68-D: integer conversion resulted in a change of sign
+      {   status = MI_ERR;   }
+..\HARDWARE\RC522\rc522.c(338): warning:  #550-D: variable "status" was set but never used
+      char status;
+..\HARDWARE\RC522\rc522.c(516): warning:  #68-D: integer conversion resulted in a change of sign
+      char status = MI_ERR;
+..\HARDWARE\RC522\rc522.c(564): warning:  #68-D: integer conversion resulted in a change of sign
+               {   status = MI_NOTAGERR;   }
+..\HARDWARE\RC522\rc522.c(582): warning:  #68-D: integer conversion resulted in a change of sign
+           {   status = MI_ERR;   }
+..\HARDWARE\RC522\rc522.c: 18 warnings, 0 errors
 compiling remote.c...
 linking...
-Program Size: Code=6720 RO-data=268 RW-data=4532 ZI-data=1036  
+Program Size: Code=6612 RO-data=268 RW-data=4532 ZI-data=1036  
 FromELF: creating hex file...
-"..\OBJ\Template.axf" - 0 Error(s), 0 Warning(s).
+"..\OBJ\Template.axf" - 0 Error(s), 48 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
-  D:\系统文件\桌面\2022.5.20ddl合泰资料\STM32F103C8T6 Car\USER\RTE
+  D:\Qianrushi\STM32\STM32F103C8T6 Holtek Car\USER\RTE
   D:\Soft\Study Soft\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0
 
 <h2>Collection of Component Files used:</h2>

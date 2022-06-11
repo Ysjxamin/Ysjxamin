@@ -465,12 +465,12 @@ ARM Macro Assembler    Page 8
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=..\obj\startup_stm32f10x_md.d -o..\obj\startup_stm32f10x_md.o -I"D
-:\系统文件\桌面\2022.5.20ddl合泰资料\STM32F103C8T6 Car\USER\RTE" -I"D:\Soft\Stu
-dy Soft\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0" -I"D:\Soft\Study Soft\Keil5\AR
-M\CMSIS\Include" -I"D:\Soft\Study Soft\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\
-Device\Include" --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --p
-redefine="__UVISION_VERSION SETA 514" --predefine="STM32F10X_MD SETA 1" --list=
-.\listings\startup_stm32f10x_md.lst ..\CORE\startup_stm32f10x_md.s
+:\Qianrushi\STM32\STM32F103C8T6 Holtek Car\USER\RTE" -I"D:\Soft\Study Soft\Keil
+5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0" -I"D:\Soft\Study Soft\Keil5\ARM\CMSIS\Incl
+ude" -I"D:\Soft\Study Soft\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Inclu
+de" --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__
+UVISION_VERSION SETA 514" --predefine="STM32F10X_MD SETA 1" --list=.\listings\s
+tartup_stm32f10x_md.lst ..\CORE\startup_stm32f10x_md.s
 
 
 
